@@ -2,47 +2,51 @@
 
 
 
-# [Project Name] 🎯
+# Talk.exe 
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: LINUX
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: SNEHAL P S - SNM Institute Of Management And Technology
+- Member 2: ROHITH ROBLELAL - SNM Institute Of Management And Technology
 
 ### Project Description
-[2-3 lines about what your project does]
+An interactive AI camera project that detects whether a person is talking, silent, or has left the camera view. Based on their state, it automatically changes the displayed image and plays the corresponding audio response, creating a funny and interactive experience.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+People often feel lonely and need someone to talk to.
+
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+An AI camera that talks back to you when you're talking, stays silent when you're silent, and leaves when you leave.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Python
+- OpenCV, MediaPipe
+- Pygame, MoviePy
+- VS Code, Git
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Webcam (built-in or external)
+- 720p minimum resolution recommended
+- None
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+```bash
+pip install opencv-python mediapipe pygame moviepy
+```
 
 # Run
-[commands]
+```bash
+python lip_detection.py
+```
 
 ### Project Documentation
 For Software:
@@ -82,17 +86,15 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+(https://drive.google.com/drive/folders/1haNnCo--qgTA59gPkrXSDce-lvzl7UHs?usp=drive_link)
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
+- SNEHAL P S: Idea generation, Design
+- ROHITH ROBLELAL: Python programming, MediaPipe integration, Audio processing
 ---
 Made with ❤️ at TinkerHub Useless Projects 
 
