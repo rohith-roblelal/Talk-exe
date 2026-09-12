@@ -74,7 +74,7 @@ The application starts by initializing the webcam and continuously capturing vid
 
 
 
-*Explain the final build*
+##*Explain the final build*
 
 The final build is a Python-based interactive camera application that uses OpenCV, MediaPipe, and Pygame to respond to a person’s presence and talking behavior.
 
@@ -96,7 +96,7 @@ The final build does not require a website, landing page, cloud service, or exte
 ### Project Demo
 # Video
 (https://drive.google.com/drive/folders/1haNnCo--qgTA59gPkrXSDce-lvzl7UHs?usp=drive_link)
-*Explain what the video demonstrates*
+
 
 # Additional Demos
 [Add any extra demo materials/links]
