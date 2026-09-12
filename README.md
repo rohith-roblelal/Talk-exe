@@ -72,6 +72,8 @@ Figure 1. Python and OpenCV workflow.
 The application starts by initializing the webcam and continuously capturing video frames. MediaPipe detects whether a face is present in front of the camera. If no face is detected, the application enters the NO FACE state, displays the corresponding image, and plays afterfaceseen.mpeg once. When a face is detected, the application analyzes lip movement to determine whether the person is silent or talking. During the SILENT state, it displays talking1.jpeg and plays talking1.mpeg. During the TALKING state, it displays talking2.jpeg and plays talking2.mpeg. The process repeats continuously until the Python program is stopped.
 
 
+
+
 *Explain the final build*
 
 The final build is a Python-based interactive camera application that uses OpenCV, MediaPipe, and Pygame to respond to a person’s presence and talking behavior.
